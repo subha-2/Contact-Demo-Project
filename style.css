@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+  
+
+}
+
+.contactUs {
+    
+}
+
+.contact-head {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(37, 101, 101);
+
+}
+
+.contact-head h1 {
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    /* height: 90vh; */
+    height: 643px;
+    
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #68A7AD; */
+    background-image: url(./pexels-nout-gons-248159.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-container {
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.right-container {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(48, 167, 109); */
+}
+
+/* Left Div */
+.left-container-main {
+    height: 80%;
+    width: 70%;
+    
+    border: 2px solid #fff;
+    /* border: 2px dotted #ffff; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    color: #fff;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.left-container-user h2 {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.details {
+    padding: 25px;
+    font-size: 20px;
+  
+
+}
+
+.left-container-socials {
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.left-container-socials a i{
+    color: #fff;
+}
+.left-container-socials a i:hover{
+    color: rgb(14, 120, 225);
+}
+
+/* right container */
+.form-container{
+    width: 80%;
+    height: 80%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #E7F6F2;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* text-align: center; */
+    
+   
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+}
+.email-phNumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+input{
+        outline: 0;
+        border-width: 0 0 2px;
+        background-color: #E7F6F2;
+        padding-top: 10px;
+        width: 100%;
+        font-size: 18px;
+        
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 50px; 
+    font-size: 20px;
+}
+textarea{
+    background-color: #E7F6F2;
+    padding: 5px;
+    font-size: 16px;
+}
+/* button */
+button{
+    height: 30px;
+    width: 50%;
+    text-align: center;
+   background-color: #1A4D2E;
+    color: #ffff;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-submit{
+    display: flex;
+    justify-content: center;
+}
+input::placeholder{
+    padding: 2px;
+}
+textarea::placeholder{
+   
+}
+/* Req*/
+.reqColor{
+    font-size: 16px;
+    color: red;
+}
+
+/* Media QUary */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container {
+        width: 100%;
+       
+        /* background-color: blueviolet; */
+        margin: auto;
+    }
+    .right-container {
+        width: 100%;
+        
+        margin: auto;
+        /* background-color: rgb(48, 167, 109); */
+    }
+    .container {
+        
+        width: 100%;
+        height: 1200px;
+        
+        /* background-color: #68A7AD; */
+        background-image: url(./pexels-nout-gons-248159.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 50px;
+        padding-bottom:  10px; 
+        font-size: 20px;
+      
+    }
+    .email-phNumber{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 50px;
+       
+        
+    }
+    input{
+            outline: 0;
+            border-width: 0 0 2px;
+            background-color: #E7F6F2;
+            /* padding-top: 10px;l */
+           
+            width: 70%;
+            font-size: 18px;
+           
+            
+    }
+    .message{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding-left: 50px; 
+    }
+    .left-container-socials {
+        
+        width: 90%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container {
+        width: 90%;
+       
+        /* background-color: blueviolet; */
+        margin: auto;
+    }
+    .right-container {
+        width: 90%;
+        
+        margin: auto;
+        /* background-color: rgb(48, 167, 109); */
+    }
+    .container {
+        
+        width: 100%;
+        height: 1200px;
+        
+        /* background-color: #68A7AD; */
+        background-image: url(./pexels-nout-gons-248159.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}

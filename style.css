@@ -228,7 +228,7 @@ textarea::placeholder{
             background-color: #E7F6F2;
             /* padding-top: 10px;l */
            
-            width: 70%;
+            width: 90%;
             font-size: 18px;
            
             
@@ -239,13 +239,24 @@ textarea::placeholder{
         width: 80%;
         padding-left: 50px; 
     }
+    
     .left-container-socials {
-        
         width: 90%;
+        font-size: 30px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-around;
+        
     }
+    .left-container-main {
+        width: 95%;
+    }
+    .form-container{
+        width: 95%;
+    }
+    
 
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 
